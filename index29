@@ -1,0 +1,12 @@
+const numbers={
+    name: 5,
+    age: 3,
+    course: 2
+}
+
+let num = 0;
+for(key in numbers){
+    num = num + numbers[key]
+}
+
+console.log(num)
